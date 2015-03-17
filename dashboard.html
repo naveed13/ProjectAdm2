@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+    <title>Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dashboard.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="bs-example">
+        <ul class="list-inline" style='margin-top: -60px;'>
+          <li> <a href="frontpage.html" style="color:white">Home</a></li>
+          <li> <a href="dashboard.html" style="color:white">Dashboard</li>
+        </ul>
+      </div>
+      <div id="divPic"></div>
+      <div id='autoType'></div>
+    </div>
+    <div class="list-group">
+      <a href="#" class="list-group-item active">
+        <span class="glyphicon glyphicon-camera"></span> Pictures <span id="picCount" class="badge"></span>
+      </a>
+      <a href="#" class="list-group-item">
+        <span class="glyphicon glyphicon-file"></span> Documents <span id="docsCount"class="badge"></span>
+      </a>
+      <a href="#" class="list-group-item">
+        <span class="glyphicon glyphicon-music"></span> Music <span id='musicCount'class="badge"></span>
+      </a>
+    </div>
+
+    <div id='hideButt'>
+      <button type="button" onClick="myClick(this.id)" id="myPic" class="btn btn-primary">myPic</button>
+      <button type="button" onClick="myClick(this.id)" id="myAlbum" class="btn btn-primary navbar-btn"> myAlbum</button>
+      <button type="button" onClick="myClick(this.id)" id="myMusic" class="btn btn-primary">myMusic</button>
+      <button type="button"  onClick="myClick(this.id)" id="myDocs" class="btn btn-primary">myDocs</button>
+      <button type="button"  onClick="myClick(this.id)" id="myEmail" class="btn btn-primary">myEmail</button>
+    </div>
+
+
+    <div>
+      <input type="file" accept="image/*" id="input"/>
+      <input type="file" accept="image/*" id="inputAlbum" multiple='true'/>
+      <input type="file" accept="audio/*" id="inputMusic" multiple='true'/>
+      <input type="file" accept="text/plain" id="inputDocs" multiple='true'/>
+      <button type="button" id="picSubmit" class="btn btn-success">upload</button>
+      <button type="button" id="albumSubmit" class="btn btn-success">upload</button>
+      <button type="button" id="musicSubmit" class="btn btn-success">upload</button>
+      <button type="button" id="docsSubmit" class="btn btn-success">upload</button>
+      <button type="button" id="emailSubmit" class="btn btn-success">Add Email</button>
+      <p id ="response"></p>
+    </div>
+
+    <div id="album"></div>
+    <div id="music"></div>
+    <div id ="email"></div>
+    <div id ="docs"></div>
+
+    <div id ="sub-text">
+      <input type="text" id="eSubject" class="form-control" placeholder="Subject">
+      <textarea name="Text2" cols="40" rows="5" id="eText" class="form-control" placeholder="Type Email"></textarea>
+    </div>
+
+    <script type="text/javascript" src="dashboard.js"></script>
+  </body>
+</html>

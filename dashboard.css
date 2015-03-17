@@ -1,0 +1,157 @@
+.jumbotron{
+  background-color: #2b669a;
+}
+
+#myPic{
+  margin-left: 10px;
+}
+
+#profilePic{
+  margin-top: -15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+.albumPic{
+  margin-top: 10px;
+  border: 1px solid black;
+  float: left;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+#input{
+  margin-left: 10px;
+  font-size: 0;
+  display: none;
+}
+
+#picSubmit{
+  margin-top: 5px;
+  border-radius: 20px;
+  margin-left: 10px;
+  display: none;
+}
+
+#inputAlbum{
+  margin-left: 85px;
+  font-size: 0;
+  display: none;
+}
+
+#albumSubmit{
+  margin-top: 5px;
+  border-radius: 20px;
+  display: none;
+  margin-left: 85px;
+}
+
+#inputMusic{
+  margin-left: 170px;
+  font-size: 0;
+  display: none;
+}
+
+#musicSubmit{
+  margin-top: 5px;
+ border-radius: 20px;
+ margin-left: 175px;
+ display: none;
+}
+
+#inputDocs{
+  margin-left: 258px;
+  font-size: 0;
+  display: none;
+}
+
+#docsSubmit{
+  margin-top: 5px;
+  border-radius: 20px;
+ margin-left: 260px;
+ display: none;
+}
+
+#myTask{
+
+}
+
+#taskSubmit{
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-left: 5px;
+  display: none;
+}
+
+#sub-task{
+ display: none;
+}
+
+#tText{
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #F2F1EF;
+}
+
+#tSubject{
+  width: 300px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #F2F1EF;
+}
+
+#emailSubmit{
+  border-radius: 20px;
+  margin-left: 5px;
+  display: none;
+}
+
+#sub-text{
+  display: none;
+}
+
+#eText{
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color:#F2F1EF;
+}
+
+#eSubject{
+  width: 300px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color:#F2F1EF;
+}
+
+.list-group{
+  margin-top: -126px;
+  float:right;
+  width: 200px;
+  }
+
+.bs-example{
+  margin: 20px;
+}
+
+#autoType{
+margin-top: -50px;
+font-size: 25px;
+font-family: sans-serif;
+color: #ffffff;
+text-align: center;
+text-shadow: 0 -1px 0 #286090;;
+}
+
+
